@@ -1,5 +1,5 @@
 def test_login_with_invalid_credentials(page):
-    print("Running Test case 4 - Verify login with invalid credentials")
+    print("Running Test case 3 - Verify login with invalid credentials")
     page.goto("https://automationexercise.com/")
     assert page.title() == "Automation Exercise"
     page.click("a[href='/login']")

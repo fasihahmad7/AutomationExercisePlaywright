@@ -1,4 +1,3 @@
-import time
 def logout_user(page):
     print("Running Test case 4 - Logout user")
     page.goto("https://automationexercise.com/")
